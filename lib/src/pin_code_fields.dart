@@ -754,12 +754,6 @@ class _PinCodeTextFieldState extends State<PinCodeTextField>
                 text: formattedPastedText,
                 style: widget.pastedTextStyle ?? defaultPastedTextStyle,
               ),
-              TextSpan(
-                text: " ?",
-                style: TextStyle(
-                  color: Theme.of(context).textTheme.labelLarge!.color,
-                ),
-              )
             ],
           ),
         ),
